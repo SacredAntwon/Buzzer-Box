@@ -8,9 +8,11 @@ _Microcontroller:_ Arduino Nano
 
 _Range Finder:_ VL53L0X
 
-_RGB Diode x 2_
+_RGB LED x 2_
 
-_Buttons x 6:_
+_Buzzer_
+
+_9 Volt Battery with Connector_
 
 _Custom Case:_ `BuzzerBoxCase.stl` and `BuzzerBoxLid.stl` stored in `STL` folder
 
