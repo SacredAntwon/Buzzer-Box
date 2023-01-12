@@ -47,7 +47,6 @@ void setup()
 {
   pinMode(12,INPUT_PULLUP);
   digitalWrite(12,HIGH);
-  //Serial.begin(9600);
   pinMode(bluePin, OUTPUT);
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
@@ -74,14 +73,8 @@ void setup()
 
 void loop()
 {
+  // Grab distance from sensor
   int distance =sensor.readRangeContinuousMillimeters();
-
-  //Print out the info on a serial monitor
-  
-  //Serial.print("Distance: ");
-  //Serial.print(distance);
-  //Serial.print("mm");
-  //if (sensor.timeoutOccurred()) { Serial.print(" TIMEOUT"); }
   
   //FIRST DISTANCE
   if(distance < 50)
