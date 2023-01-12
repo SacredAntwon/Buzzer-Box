@@ -16,20 +16,23 @@ _Custom Case:_ `BuzzerBoxCase.stl` and `BuzzerBoxLid.stl` stored in `STL` folder
 
 ## Pin Layout
 
-|VL53L0X Pin|Arduino Pin|
-|VCC|5V|
-|GND|GND|
-|SDA|A4 or SDA if Available|
-|SCL|A5 or SCL if Available|
-|GPIO1|Leave it Unconnected|
-|XSHUT|D12 (digital 12 or pin 12)|
+| VL53L0X Pin |        Arduino Pin         |
+| :---------: | :------------------------: |
+|     VCC     |             5V             |
+|     GND     |            GND             |
+|     SDA     |   A4 or SDA if Available   |
+|     SCL     |   A5 or SCL if Available   |
+|    GPIO1    |    Leave it Unconnected    |
+|    XSHUT    | D12 (digital 12 or pin 12) |
 
-|LED Pin|Arduino Pin|
-|LED Red|Pin D7|
-|LED Green|Pin D8|
-|LED Blue|Pin D9|
-|Ground Pin|GND|
+|  LED Pin   | Arduino Pin |
+| :--------: | :---------: |
+|  LED Red   |   Pin D7    |
+| LED Green  |   Pin D8    |
+|  LED Blue  |   Pin D9    |
+| Ground Pin |     GND     |
 
-|Buzzer Pin|Arduino Pin|
-|Positive|D5|
-|Negative|GND|
+| Buzzer Pin | Arduino Pin |
+| :--------: | :---------: |
+|  Positive  |     D5      |
+|  Negative  |     GND     |
