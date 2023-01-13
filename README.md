@@ -2,6 +2,8 @@
 
 One of my first projects using an arduino board to test my CAD, electronics and programming skills.
 
+![BuzzerBox](Images/buzzerbox.png)
+
 ## Parts List
 
 _Microcontroller:_ Arduino Nano
